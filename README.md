@@ -1,5 +1,7 @@
 # Money Transfer Service
 
+[![Build Status](https://travis-ci.org/Uladzislau97/money-transfer-service.svg?branch=master)](https://travis-ci.org/Uladzislau97/money-transfer-service)
+
 #### Main commands
 - ```make setup``` to create database, run migrations and populate db with test users.
 - ```make console``` ro tun rails console
