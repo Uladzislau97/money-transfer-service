@@ -1,24 +1,10 @@
-# README
+# Money Transfer Service
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### Main commands
+- ```make setup``` to create database, run migrations and populate db with test users.
+- ```make console``` ro tun rails console
+- ```make test``` to run tests
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#### Structure
+- [Transfer Service](https://github.com/Uladzislau97/money-transfer-service/blob/master/app/models/user.rb) - implementation of user model and TransferService
+- [Transfer Service Spec](https://github.com/Uladzislau97/money-transfer-service/blob/master/spec/services/transfer_service_spec.rb) - tests for TransferService
