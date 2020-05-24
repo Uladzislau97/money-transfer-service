@@ -1,0 +1,14 @@
+language: ruby
+rvm:
+  — 2.5.7
+
+install:
+  - bundle install
+
+script:
+  - bundle exec rake db:setup
+  - bundle exec rake db:migrate
+  - bundle exec rspec
+
+notifications:
+  email: false
