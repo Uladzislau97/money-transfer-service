@@ -2,6 +2,9 @@ language: ruby
 rvm:
   — 2.5.7
 
+services:
+  - postgresql
+
 install:
   - bundle install
 
